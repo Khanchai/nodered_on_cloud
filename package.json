@@ -2,7 +2,10 @@
     "name": "chatbot-dtac",
     "description": "dtac_chatbot",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-chatbot": "0.9.21",
+        "node-red-contrib-moment": "2.0.7"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows_chatbot_dtac.json",
